@@ -1,1 +1,32 @@
+/*layout*/
 
+html{
+    scroll-behavior:smooth;
+  }
+  
+  body{
+    font-family: 'News cycle';
+    margin:0;
+    padding:0;
+  }
+  
+  header{
+    height: 100vh;
+  }
+  
+  .header-content {
+    width: 50%;
+    text-align: center;
+    color: #000;
+    
+    /*typography*/
+  
+  span .font-pair1a{
+    font-family: 'Contrail One';
+  }
+  
+  span .font-pair1b{
+    font-family: 'Cabin', sans-serif;
+  }
+    
+    /*background images*/
