@@ -1,0 +1,147 @@
+/*layout*/
+
+html{
+    scroll-behavior:smooth;
+  }
+  
+  body{
+    font-family: 'News cycle';
+    margin:0;
+    padding:0;
+  }
+   
+  header{
+    height: 70vh; 
+  }
+  
+  .header-content {
+    width: 90%;
+    text-align:center;
+    padding: 95px;
+  }
+  
+  a {
+    margin-top: 0;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  nav {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    background-color:  rgb(0, 0, 0, 0.6);
+    z-index: 10;
+  }
+  
+  article {
+    max-width: 70%;
+    margin: auto;
+    padding: 50px;
+  }
+  footer {
+    text-align: center;
+    padding: 6px 0;
+    background-color: rgb(0,0,0);
+    font-style:italic; 
+  }
+  
+  /*typography*/
+  .number{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    color: #fff;
+    top: -20px;
+    right: -25px;
+    font-weight: 30px;
+    line-height: 25px;
+    text-align:center;
+    font-style:italic;
+  }
+  
+  h1 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 900;
+    margin: 0;
+    color:#F0F8FF;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 20px;
+    color:#fff;
+  }
+  
+  h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 0;
+    padding: 40px;
+  }
+   
+    p{  
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 20px; 
+    padding:0px 40px 0px 40px;
+  }
+  
+  .pinktext{
+     color:pink;
+  }
+  
+  .whitetext{
+    color:#fff;
+  }
+  .font-pair1a{
+    font-family: 'Contrail One', cursive;
+  }
+  
+  .font-pair1b{
+    font-family: 'Libre Barcode 39', cursive;
+  }
+  .font-pair2a{
+    font-family: 'Flow Block', cursive;
+  }
+  .font-pair2b{
+    font-family: 'Press Start 2P', cursive;  
+  }
+  .font-pair3a{
+    font-family: 'Rock Salt', cursive;
+  }
+  .font-pair3b{
+    font-family: 'Pragati Narrow', sans-serif;
+  }
+  /*backgrounds*/
+  
+  .header-background{
+    background:url(https://images.pexels.com/photos/1236044/pexels-photo-1236044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat fixed center;
+    background-size:cover;
+  }
+  .first-section-background{
+  background: url(https://images.pexels.com/photos/4386402/pexels-photo-4386402.jpeg?) no-repeat fixed bottom;
+  }
+  .second-section-background{ 
+    background: url(https://images.pexels.com/photos/1293269/pexels-photo-1293269.jpeg?) no-repeat fixed;
+  }
+  .third-section-background{
+    background: url(https://images.pexels.com/photos/6156938/pexels-photo-6156938.jpeg?) no-repeat fixed;
+  }
+  
+  
+  
+    
+    
+  
